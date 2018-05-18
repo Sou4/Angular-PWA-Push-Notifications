@@ -1,0 +1,25 @@
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+        <button class="btn btn-danger" (click)="subscribeToNotifications()">Subscribe To Notifications</button>&nbsp;
+        <!-- <button class="btn btn-success" (click)="sendNotifiactions()">Send Notifiactions</button> -->
+    <br>        
+    <form (ngSubmit)="sendNotifiactions();">
+        <div class="form-group">
+          <label for="titile">Titile</label>
+          <input type="text" class="form-control" id="titile" name="titile" [(ngModel)]="titile"  required >
+        </div>
+    
+        <div class="form-group">
+            <label for="desc">Description</label>
+            <input type="text" class="form-control" id="desc" name="desc" [(ngModel)]="desc"  required >
+        </div>
+    
+    
+        <button type="submit" class="btn btn-success" >Send Notifiactions</button>
+    
+      </form>
+</div>
