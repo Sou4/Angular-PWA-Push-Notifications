@@ -1,1 +1,1 @@
-# Angular-PWA-Push-Notifications
+# Angular6-PWA-Push-Notifications
