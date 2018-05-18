@@ -1,0 +1,9 @@
+{
+    "name": "sample-server",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "~1.0.1",
+        "express": "~4.0.0",
+        "web-push": "^3.3.1"
+    }
+}
